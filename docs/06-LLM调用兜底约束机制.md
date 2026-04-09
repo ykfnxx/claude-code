@@ -434,3 +434,19 @@ queryLoop() 每次迭代:
 | `src/services/claudeAiLimits.ts` | Rate limit解析 |
 | `src/utils/permissions/permissionSetup.ts` | Auto-mode断路器 |
 | `src/query/stopHooks.ts` | 停止Hook处理 |
+
+---
+
+## 相关文档
+
+### 前置阅读
+- [[02-核心引擎分析]] - Query Loop 的错误处理流程
+- [[11-上下文管理机制深度分析]] - 压缩相关的恢复策略
+
+### 核心依赖
+- [[03-prompt-management]] - Prompt 缓存和压缩
+- [[05-agent状态轮转流程]] - 状态转换中的容错
+
+### 关联阅读
+- [[09-命令系统与服务层]] - API 层的重试机制
+- [[10-Harness工程总结]] - 兜底机制的设计权衡

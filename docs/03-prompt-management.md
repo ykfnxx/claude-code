@@ -466,3 +466,22 @@ TEAMMATE_MESSAGE_TAG      // <teammate-message>
 | `src/constants/cyberRiskInstruction.ts` | 安全指令 |
 | `src/memdir/memdir.ts` | 记忆系统提示词 |
 | `src/constants/xml.ts` | XML标签常量 |
+
+---
+
+## 相关文档
+
+### 前置阅读
+- [[01-整体架构概览]] - 整体架构理解
+- [[02-核心引擎分析]] - Query Loop 中的 Prompt 组装流程
+
+### 核心依赖
+- [[11-上下文管理机制深度分析]] - 上下文组装和缓存机制
+- [[06-LLM调用兜底约束机制]] - Prompt 压缩相关的兜底策略
+
+### 关联阅读
+- [[04-任务管理机制]] - 多 Agent 场景下的 Prompt 处理
+- [[08-状态管理]] - 系统提示词状态的存储
+
+### 扩展阅读
+- [[10-Harness工程总结]] - Prompt 工程的设计哲学
